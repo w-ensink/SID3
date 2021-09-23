@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{d0fbd894-3840-4fde-9ee0-330044ace752}">
+		<property name="name">
+			<value>TOTAL_FADE</value>
+		</property>
+		<relationship name="folder">
+			<destination>{75dff81a-1bf6-4546-be11-5c006dee2f3a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{df8001ae-a4e7-482e-ba65-3e8ce7811405}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{df8001ae-a4e7-482e-ba65-3e8ce7811405}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.12000000476837158</value>
+		</property>
+	</object>
+</objects>

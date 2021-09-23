@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{2b1681cb-2513-44c0-ba8d-79ab373c0cc6}">
+		<property name="name">
+			<value>MUZ_COMBAT_FADE1</value>
+		</property>
+		<relationship name="folder">
+			<destination>{75dff81a-1bf6-4546-be11-5c006dee2f3a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{64b67e77-49f0-4a62-9ee0-d6147add8c01}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{64b67e77-49f0-4a62-9ee0-d6147add8c01}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

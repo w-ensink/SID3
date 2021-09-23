@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{1ad5a51f-9773-49a8-a1a3-2026fb75c2a3}">
+		<property name="name">
+			<value>Explore_Boss_Parameter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{75dff81a-1bf6-4546-be11-5c006dee2f3a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{84b8494c-e4b9-4b03-a9b2-3ca7257c1a0e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{84b8494c-e4b9-4b03-a9b2-3ca7257c1a0e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

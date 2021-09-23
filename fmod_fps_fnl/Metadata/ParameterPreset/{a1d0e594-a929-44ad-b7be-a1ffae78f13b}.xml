@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{a1d0e594-a929-44ad-b7be-a1ffae78f13b}">
+		<property name="name">
+			<value>MUZ_EXPLORE_FADE</value>
+		</property>
+		<relationship name="folder">
+			<destination>{75dff81a-1bf6-4546-be11-5c006dee2f3a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{d0dc8416-7d65-4af8-aea5-aefc835ee935}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{d0dc8416-7d65-4af8-aea5-aefc835ee935}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
