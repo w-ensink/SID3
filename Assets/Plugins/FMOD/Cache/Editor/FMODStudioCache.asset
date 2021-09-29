@@ -68,28 +68,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-8285750105292265485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
-  Name: TOTAL_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 1
 --- !u!114 &-8201670143134650943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,6 +114,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1552
+--- !u!114 &-7955983095242789597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
+  m_EditorClassIdentifier: 
+  Name: fade_AMB
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7736905145243527039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 3480
+  Length: 0
 --- !u!114 &-7692207651825015410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,28 +363,6 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
---- !u!114 &-6529279354975129820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
-  Name: TOTAL_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &-6518677836167037273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -522,28 +500,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5481114067515162621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
-  Name: fade_AMB
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 1
 --- !u!114 &-5455140311158056368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -681,28 +637,6 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
---- !u!114 &-4819086409153611014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
-  Name: fade_AMB
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &-4733466242903522009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -772,28 +706,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 300
   Length: 0
---- !u!114 &-3780134980406874540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
-  Name: MUZ_EXPLORE_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &-3663469416072186089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,8 +726,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -8285750105292265485}
-  - {fileID: 7816943411697850081}
+  - {fileID: 5804303993524403067}
+  - {fileID: 2695647786153116209}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -910,50 +822,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2494
---- !u!114 &-2520569758470063043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
-  Name: fade_AMB
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
---- !u!114 &-2048749135307598373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
-  Name: TOTAL_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &-1867786109750917785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,7 +982,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 2903
+  Length: 0
 --- !u!114 &-1103557284363207390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,7 +1073,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1486
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1265,7 +1133,7 @@ MonoBehaviour:
   - {fileID: 3710586531491619092}
   StringsBanks:
   - {fileID: 4982197172559629929}
-  stringsBankWriteTime: 637685197240000000
+  stringsBankWriteTime: 637674054573312472
   cacheVersion: 8
 --- !u!114 &11052340477487702
 MonoBehaviour:
@@ -1305,7 +1173,7 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/AMBIENCE.bank
   Name: AMBIENCE
   StudioPath: bank:/AMBIENCE
-  lastModified: 637685197240000000
+  lastModified: 637674054573302564
   FileSizes:
   - Name: Desktop
     Value: 2212
@@ -1630,7 +1498,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -5481114067515162621}
+  - {fileID: -7955983095242789597}
   MinDistance: 0
   MaxDistance: 0
   Length: 31997
@@ -1680,6 +1548,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1010
+--- !u!114 &2695647786153116209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
+  m_EditorClassIdentifier: 
+  Name: MUZ_EXPLORE_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3198504598919999173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1839,7 +1729,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1480
+  Length: 0
 --- !u!114 &3710586531491619092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1855,33 +1745,11 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637685197240000000
+  lastModified: 637674054573307523
   FileSizes:
   - Name: Desktop
     Value: 1012
   Exists: 1
---- !u!114 &3993705392649599516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
-  Name: MUZ_EXPLORE_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &4257759791975714425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1943,7 +1811,7 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637685197240000000
+  lastModified: 637674054573312472
   FileSizes:
   - Name: Desktop
     Value: 2708
@@ -1994,6 +1862,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5804303993524403067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MUSIC/TOTAL_FADE
+  m_EditorClassIdentifier: 
+  Name: TOTAL_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5807092341441303270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2124,10 +2014,10 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637685197240000000
+  lastModified: 637674054573337591
   FileSizes:
   - Name: Desktop
-    Value: 128416
+    Value: 23828
   Exists: 1
 --- !u!114 &7112918410843602215
 MonoBehaviour:
@@ -2167,32 +2057,10 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/MUSIC.bank
   Name: MUSIC
   StudioPath: bank:/MUSIC
-  lastModified: 637685197240000000
+  lastModified: 637674054573307523
   FileSizes:
   - Name: Desktop
     Value: 3426
-  Exists: 1
---- !u!114 &7816943411697850081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
-  Name: MUZ_EXPLORE_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
   Exists: 1
 --- !u!114 &8029429134445013301
 MonoBehaviour:
@@ -2231,6 +2099,8 @@ MonoBehaviour:
   Path: 
   guid: f390890fc609634abd1f07149cfa24a1
   Banks:
+  - {fileID: 6839737073569449293}
+  - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}

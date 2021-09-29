@@ -24,7 +24,7 @@ public class Deur_Script : MonoBehaviour
     void OnTriggerEnter(Collider coll) {
       if(coll.gameObject.tag == "Player") {
         AutoDeur (true);
-        //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
         //combat music parameter switch
         Debug.Log("cool");
       }
@@ -33,7 +33,7 @@ public class Deur_Script : MonoBehaviour
     void OnTriggerExit(Collider coll) {
       if(coll.gameObject.tag == "Player") {
         AutoDeur (false);
-        //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
       }
     }
 
