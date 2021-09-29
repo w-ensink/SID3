@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{661ee7b6-ff7c-4e29-a607-87e7459ca2f0}">
+	<object class="AudioFile" id="{2eb00638-4447-4537-86c9-307a6ba8457b}">
 		<property name="assetPath">
-			<value>environment/door.wav</value>
+			<value>environment/alarm.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
