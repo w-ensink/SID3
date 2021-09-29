@@ -11,7 +11,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_health
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_health
   guid: 08d5f938ed6e7848b82b54110be44786
   Banks:
@@ -34,7 +34,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/Explore_Boss_Parameter
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: Explore_Boss_Parameter
   Min: 0
   Max: 1
@@ -56,7 +56,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_land
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_land
   guid: d4df1087292dff4bbed621491f982bd4
   Banks:
@@ -68,28 +68,6 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
---- !u!114 &-8285750105292265485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
-  Name: TOTAL_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 1
 --- !u!114 &-8201670143134650943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +79,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_deur_mega_open
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_deur_mega_open
   guid: 4501af2cec96734d83368613d61060cd
   Banks:
@@ -124,7 +102,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_cooling_limit
   guid: bdc3ca3203575345af96663057f5f2cf
   Banks:
@@ -136,6 +114,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1552
+--- !u!114 &-7955983095242789597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
+  m_EditorClassIdentifier:
+  Name: fade_AMB
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7736905145243527039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_weapon_switch
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_weapon_switch
   guid: 3d09907fb0b5804caccfb15cab10ea0d
   Banks:
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_blaster_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_blaster_cooling_limit
   guid: b6afc19206fb334cb7006a57a3235cd8
   Banks:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -215,7 +215,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_resume
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_resume
   guid: 83e66e24a0f31547919d2ba5642bba8b
   Banks:
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_fire
   guid: 6fcf0e1d57b82c4a8e0046360239df6b
   Banks:
@@ -283,7 +283,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_death
   guid: 2498c8c61f03f44e9b7f95184c556dcc
   Banks:
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_deur_open
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_deur_open
   guid: 599a36824eb6984d98b6fd324814a02e
   Banks:
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_use
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_use
   guid: 9378e439a328394e9f8b09c6bddf2197
   Banks:
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_COMBAT_FADE1
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_COMBAT_FADE1
   Min: 0
   Max: 1
@@ -374,30 +374,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://Explore_Boss_Parameter
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: Explore_Boss_Parameter
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
---- !u!114 &-6529279354975129820
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
-  Name: TOTAL_FADE
   Min: 0
   Max: 1
   Default: 0
@@ -418,7 +396,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_alarm
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_alarm
   guid: cf468861b4eab44395aac06dbb0205a7
   Banks:
@@ -441,7 +419,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_start
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_start
   guid: 49de0ad3cf71b74fba7f335a1f1311d2
   Banks:
@@ -464,7 +442,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_shotgun_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_shotgun_cooling_limit
   guid: 6da9797b694c35418fcaa95693fbcd14
   Banks:
@@ -487,7 +465,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -509,7 +487,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_alert
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_alert
   guid: bb6cc8f78003b44c91f57f0fe015a954
   Banks:
@@ -532,7 +510,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hovertbot_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hovertbot_fire
   guid: a82ad049a3b77d4290c14e2b36bb6ffb
   Banks:
@@ -544,28 +522,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-5481114067515162621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
-  Name: fade_AMB
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 1
 --- !u!114 &-5455140311158056368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -577,7 +533,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_pause
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_pause
   guid: 806fc551ea1a924aa82f924f355c986e
   Banks:
@@ -600,7 +556,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_movement
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_movement
   guid: 9f10656e9b69704ea2eb8d05c310c1f0
   Banks:
@@ -623,7 +579,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_death
   guid: 2498c8c61f03f44e9b7f95184c556dcc
   Banks:
@@ -646,7 +602,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_death
   guid: a86bcf0e7081da4883f380533433cc5d
   Banks:
@@ -669,7 +625,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_deur_mega_open
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_deur_mega_open
   guid: 4501af2cec96734d83368613d61060cd
   Banks:
@@ -692,30 +648,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://MUZ_COMBAT_FADE1
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_COMBAT_FADE1
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
---- !u!114 &-4819086409153611014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
-  Name: fade_AMB
   Min: 0
   Max: 1
   Default: 0
@@ -736,7 +670,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hovertbot_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hovertbot_fire
   guid: a82ad049a3b77d4290c14e2b36bb6ffb
   Banks:
@@ -759,7 +693,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_health
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_health
   guid: 08d5f938ed6e7848b82b54110be44786
   Banks:
@@ -782,7 +716,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_death
   guid: 5428fd0e8956984e979c97fbd6ed58d8
   Banks:
@@ -794,28 +728,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 300
   Length: 0
---- !u!114 &-3780134980406874540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
-  Name: MUZ_EXPLORE_FADE
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 0
-    data2: 0
-  Type: 0
-  IsGlobal: 0
-  Exists: 0
 --- !u!114 &-3663469416072186089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -827,7 +739,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/MUSIC/MUSIC
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/MUSIC/MUSIC
   guid: b4d3bba744ead045b00fe5ff97f6b31a
   Banks:
@@ -852,7 +764,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -874,7 +786,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_use
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_use
   guid: 9378e439a328394e9f8b09c6bddf2197
   Banks:
@@ -897,7 +809,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -919,7 +831,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_damage_hitgrunt
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_damage_hitgrunt
   guid: 08192e59f419c343af55e617258fb771
   Banks:
@@ -942,7 +854,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -964,7 +876,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_shotgun_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_shotgun_fire
   guid: dbbc8cf94bbe064397f4ef5232c8bf8d
   Banks:
@@ -987,7 +899,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -1009,7 +921,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -1031,7 +943,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -1053,7 +965,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_charge
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_charge
   guid: 4d784b2ffb62804eaa422be1d6ff8d85
   Banks:
@@ -1076,7 +988,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_footsteps
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_footsteps
   guid: 5bef864af603f945b6a181afdae549ca
   Banks:
@@ -1099,7 +1011,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_deur_open
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_deur_open
   guid: 599a36824eb6984d98b6fd324814a02e
   Banks:
@@ -1122,7 +1034,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Blaster_HIT
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Blaster_HIT
   guid: f390890fc609634abd1f07149cfa24a1
   Banks:
@@ -1145,7 +1057,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Environment/Environment_alarm
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Environment/Environment_alarm
   guid: cf468861b4eab44395aac06dbb0205a7
   Banks:
@@ -1168,7 +1080,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_alert
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_alert
   guid: 3539bd61555d0c4f913ebd8ad16182c4
   Banks:
@@ -1191,7 +1103,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_shotgun
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_shotgun
   guid: 02c1a095dc2f124eb18b1339c600b9e2
   Banks:
@@ -1214,7 +1126,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -1236,7 +1148,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -1258,7 +1170,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_fire
   guid: 6fcf0e1d57b82c4a8e0046360239df6b
   Banks:
@@ -1281,7 +1193,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_charge
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_charge
   guid: 4d784b2ffb62804eaa422be1d6ff8d85
   Banks:
@@ -1304,7 +1216,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -1326,7 +1238,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -1348,7 +1260,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_footsteps
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_footsteps
   guid: 5bef864af603f945b6a181afdae549ca
   Banks:
@@ -1359,7 +1271,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1486
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1371,7 +1283,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   EditorBanks:
   - {fileID: 4982197172559629929}
   - {fileID: 35633278356684525}
@@ -1432,7 +1344,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_jump
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_jump
   guid: aba99cf9c1a1c64d98832806698a8588
   Banks:
@@ -1455,7 +1367,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/AMBIENCE.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: fmod_fps_fnl/Build/Desktop/AMBIENCE.bank
   Name: AMBIENCE
   StudioPath: bank:/AMBIENCE
@@ -1475,7 +1387,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -1497,7 +1409,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_shotgun_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_shotgun_cooling_limit
   guid: 6da9797b694c35418fcaa95693fbcd14
   Banks:
@@ -1520,7 +1432,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_death
   guid: 5428fd0e8956984e979c97fbd6ed58d8
   Banks:
@@ -1543,7 +1455,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/MUSIC/MUSIC
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/MUSIC/MUSIC
   guid: b4d3bba744ead045b00fe5ff97f6b31a
   Banks:
@@ -1571,7 +1483,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_shotgun_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_shotgun_fire
   guid: dbbc8cf94bbe064397f4ef5232c8bf8d
   Banks:
@@ -1594,7 +1506,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Shotgun_HIT
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Shotgun_HIT
   guid: 555c055a0f2a7549b20bd182ece7edc2
   Banks:
@@ -1617,7 +1529,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_resume
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_resume
   guid: 83e66e24a0f31547919d2ba5642bba8b
   Banks:
@@ -1640,7 +1552,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_weapon_switch
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_weapon_switch
   guid: 3d09907fb0b5804caccfb15cab10ea0d
   Banks:
@@ -1663,7 +1575,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_shotgun
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_shotgun
   guid: 02c1a095dc2f124eb18b1339c600b9e2
   Banks:
@@ -1686,7 +1598,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -1708,7 +1620,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -1730,7 +1642,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Blaster_HIT
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Blaster_HIT
   guid: f390890fc609634abd1f07149cfa24a1
   Banks:
@@ -1753,7 +1665,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/BOSS_PARAMETER
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: BOSS_PARAMETER
   Min: 0
   Max: 1
@@ -1775,7 +1687,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -1797,7 +1709,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/AMBIENCE/AMB_WIND_TECHNOLGIE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/AMBIENCE/AMB_WIND_TECHNOLGIE
   guid: 6c70dc99c4e161428de29e9976b6fae7
   Banks:
@@ -1821,7 +1733,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_turret_alert
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_turret_alert
   guid: bb6cc8f78003b44c91f57f0fe015a954
   Banks:
@@ -1844,7 +1756,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_pause
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_pause
   guid: 806fc551ea1a924aa82f924f355c986e
   Banks:
@@ -1856,6 +1768,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1010
+--- !u!114 &2695647786153116209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
+  m_EditorClassIdentifier:
+  Name: MUZ_EXPLORE_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &3198504598919999173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1867,7 +1801,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_mission
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_mission
   guid: ccbd5351573d984bbaffbf323af72a51
   Banks:
@@ -1890,7 +1824,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_alert
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_alert
   guid: 3539bd61555d0c4f913ebd8ad16182c4
   Banks:
@@ -1913,7 +1847,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_land
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_land
   guid: d4df1087292dff4bbed621491f982bd4
   Banks:
@@ -1936,7 +1870,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_start
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_start
   guid: 49de0ad3cf71b74fba7f335a1f1311d2
   Banks:
@@ -1959,7 +1893,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Interface/Interface_mission
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Interface/Interface_mission
   guid: ccbd5351573d984bbaffbf323af72a51
   Banks:
@@ -1982,7 +1916,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -2004,7 +1938,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_blaster_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_blaster_fire
   guid: 10d5fce32469ae40b8d9080fc31fe11b
   Banks:
@@ -2015,7 +1949,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1480
+  Length: 0
 --- !u!114 &3710586531491619092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2027,7 +1961,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: fmod_fps_fnl/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
@@ -2047,7 +1981,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -2069,7 +2003,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/TOTAL_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: TOTAL_FADE
   Min: 0
   Max: 1
@@ -2091,7 +2025,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -2113,7 +2047,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Shotgun_HIT
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Shotgun_HIT
   guid: 555c055a0f2a7549b20bd182ece7edc2
   Banks:
@@ -2136,7 +2070,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_damage_hitgrunt
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_damage_hitgrunt
   guid: 08192e59f419c343af55e617258fb771
   Banks:
@@ -2159,7 +2093,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: fmod_fps_fnl/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
@@ -2179,7 +2113,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_blaster_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_blaster_cooling_limit
   guid: b6afc19206fb334cb7006a57a3235cd8
   Banks:
@@ -2202,7 +2136,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Jetpack/Jetpack_cooling_limit
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Jetpack/Jetpack_cooling_limit
   guid: bdc3ca3203575345af96663057f5f2cf
   Banks:
@@ -2214,6 +2148,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &5804303993524403067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MUSIC/TOTAL_FADE
+  m_EditorClassIdentifier:
+  Name: TOTAL_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5807092341441303270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2225,7 +2181,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/AMBIENCE/AMB_WIND_TECHNOLGIE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/AMBIENCE/AMB_WIND_TECHNOLGIE
   guid: 6c70dc99c4e161428de29e9976b6fae7
   Banks:
@@ -2249,7 +2205,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter://BOSS_PARAMETER
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: BOSS_PARAMETER
   Min: 0
   Max: 1
@@ -2271,7 +2227,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_movement
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_movement
   guid: 9f10656e9b69704ea2eb8d05c310c1f0
   Banks:
@@ -2294,7 +2250,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_jetpack
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_jetpack
   guid: e1b41d9b7dd1e14e9886237cca22d572
   Banks:
@@ -2317,7 +2273,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Weapons/Weapon_blaster_fire
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Weapons/Weapon_blaster_fire
   guid: 10d5fce32469ae40b8d9080fc31fe11b
   Banks:
@@ -2340,7 +2296,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/SFX.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: fmod_fps_fnl/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
@@ -2360,7 +2316,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -2382,7 +2338,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Player/Player_jump
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Player/Player_jump
   guid: aba99cf9c1a1c64d98832806698a8588
   Banks:
@@ -2405,7 +2361,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/MUSIC.bank
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: fmod_fps_fnl/Build/Desktop/MUSIC.bank
   Name: MUSIC
   StudioPath: bank:/MUSIC
@@ -2425,7 +2381,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: fade_AMB
   Min: 0
   Max: 1
@@ -2447,7 +2403,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -2469,7 +2425,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/MUSIC/MUZ_EXPLORE_FADE
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Name: MUZ_EXPLORE_FADE
   Min: 0
   Max: 1
@@ -2490,9 +2446,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: 
+  m_Name:
+  m_EditorClassIdentifier:
+  Path:
   guid: f390890fc609634abd1f07149cfa24a1
   Banks:
   - {fileID: 6839737073569449293}
@@ -2537,7 +2493,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Pickups/Pickup_jetpack
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Pickups/Pickup_jetpack
   guid: e1b41d9b7dd1e14e9886237cca22d572
   Banks:
@@ -2560,7 +2516,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/SFX/Enemies/Enemies_hoverbot_death
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier:
   Path: event:/SFX/Enemies/Enemies_hoverbot_death
   guid: a86bcf0e7081da4883f380533433cc5d
   Banks:

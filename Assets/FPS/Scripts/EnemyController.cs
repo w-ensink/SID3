@@ -56,7 +56,8 @@ public class EnemyController : MonoBehaviour
     public float flashOnHitDuration = 0.5f;
 
     [Header("Sounds")]
-    [Tooltip("Sound played when recieving damages")]
+    [Tooltip("Sound played when enemy receives damages")]
+    // [FMODUnity.EventRef]
     public AudioClip damageTick;
 
     [Header("VFX")]
@@ -342,7 +343,8 @@ public class EnemyController : MonoBehaviour
 
             // play the damage tick sound
             if (damageTick && !m_WasDamagedThisFrame)
-                AudioUtility.CreateSFX(damageTick, transform.position, AudioUtility.AudioGroups.DamageTick, 0f);
+                
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Blaster_HIT", transform.position);
 
             m_WasDamagedThisFrame = true;
         }

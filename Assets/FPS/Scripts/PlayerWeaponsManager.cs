@@ -37,7 +37,7 @@ public class PlayerWeaponsManager : MonoBehaviour
     public float defaultBobAmount = 0.05f;
     [Tooltip("Distance the weapon bobs when aiming")]
     public float aimingBobAmount = 0.02f;
-
+  
     [Header("Weapon Recoil")]
     [Tooltip("This will affect how fast the recoil moves the weapon, the bigger the value, the fastest")]
     public float recoilSharpness = 50f;
@@ -297,6 +297,8 @@ public class PlayerWeaponsManager : MonoBehaviour
 
             m_LastCharacterPosition = m_PlayerCharacterController.transform.position;
         }
+
+       
     }
 
     // Updates the weapon recoil animation

@@ -367,8 +367,8 @@ public class WeaponController : MonoBehaviour
         if (shootSFX && !useContinuousShootSound)
         {
           //shoot fmod sound
-          //  FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Weapon_blaster_fire", transform.position);
-            m_ShootAudioSource.PlayOneShot(shootSFX);
+          FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Weapon_blaster_fire", transform.position);
+            // m_ShootAudioSource.PlayOneShot(shootSFX);
         }
 
         // Trigger attack animation if there is any
