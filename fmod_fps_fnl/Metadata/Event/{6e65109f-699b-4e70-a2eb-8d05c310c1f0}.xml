@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{6e65109f-699b-4e70-a2eb-8d05c310c1f0}">
 		<property name="name">
-			<value>Enemies_hoverbot_movement</value>
+			<value>Enemies_hoverbot_death</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
