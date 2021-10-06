@@ -23,6 +23,7 @@ public class HealthPickup : MonoBehaviour
         if (playerHealth && playerHealth.canPickup())
         {
             playerHealth.Heal(healAmount);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Pickups/Pickup_health", transform.position);
 
             m_Pickup.PlayPickupFeedback();
 

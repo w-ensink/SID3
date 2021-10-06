@@ -227,8 +227,10 @@ public class EnemyController : MonoBehaviour
         // Set the eye attack color and property block if the eye renderer is set
         if (m_EyeRendererData.renderer != null)
         {
+            Debug.Log("target lost");
             m_EyeColorMaterialPropertyBlock.SetColor("_EmissionColor", defaultEyeColor);
             m_EyeRendererData.renderer.SetPropertyBlock(m_EyeColorMaterialPropertyBlock, m_EyeRendererData.materialIndex);
+            
         }
     }
 
@@ -240,7 +242,8 @@ public class EnemyController : MonoBehaviour
         if (m_EyeRendererData.renderer != null)
         {
             m_EyeColorMaterialPropertyBlock.SetColor("_EmissionColor", attackEyeColor);
-            m_EyeRendererData.renderer.SetPropertyBlock(m_EyeColorMaterialPropertyBlock, m_EyeRendererData.materialIndex);
+            m_EyeRendererData.renderer.SetPropertyBlock(m_EyeColorMaterialPropertyBlock,
+                m_EyeRendererData.materialIndex);
         }
     }
 
@@ -343,9 +346,8 @@ public class EnemyController : MonoBehaviour
 
             // play the damage tick sound
             if (damageTick && !m_WasDamagedThisFrame)
-                
-                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Blaster_HIT", transform.position);
 
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Blaster_HIT", transform.position);
             m_WasDamagedThisFrame = true;
         }
     }
@@ -358,6 +360,8 @@ public class EnemyController : MonoBehaviour
 
         // tells the game flow manager to handle the enemy destuction
         m_EnemyManager.UnregisterEnemy(this);
+        
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_death", transform.position);
 
         // loot an object
         if (TryDropItem())
@@ -413,6 +417,7 @@ public class EnemyController : MonoBehaviour
         if (didFire && onAttack != null)
         {
             onAttack.Invoke();
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hovertbot_fire", transform.position);
 
             if (swapToNextWeapon && m_Weapons.Length > 1)
             {

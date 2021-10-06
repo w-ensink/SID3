@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FMODUnity;
 
-public class Gunshots : MonoBehaviour
+public class TriggerLevel : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -12,7 +11,8 @@ public class Gunshots : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("binnen");
     }
 }

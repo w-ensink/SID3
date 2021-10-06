@@ -101,7 +101,7 @@ public class PlayerCharacterController : MonoBehaviour
             return 1f;
         }
     }
-
+    
     Health m_Health;
     PlayerInputHandler m_InputHandler;
     CharacterController m_Controller;
@@ -139,6 +139,8 @@ public class PlayerCharacterController : MonoBehaviour
         m_Controller.enableOverlapRecovery = true;
 
         m_Health.onDie += OnDie;
+        
+        m_Health.onDamaged += TakeHit;
 
         //fmod muziek start
 
@@ -179,7 +181,6 @@ public class PlayerCharacterController : MonoBehaviour
             else
             {
                 // land SFX fmod
-                //audioSource.PlayOneShot(landSFX);
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_land", transform.position);
             }
         }
@@ -195,10 +196,16 @@ public class PlayerCharacterController : MonoBehaviour
         HandleCharacterMovement();
     }
 
+    void TakeHit(float x, GameObject y)
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_damage_hitgrunt", transform.position);
+    }
+
     void OnDie()
     {
         isDead = true;
-
+        Debug.Log("player dies");
+        
         // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
         m_WeaponsManager.SwitchToWeaponIndex(-1, true);
     }
@@ -298,7 +305,6 @@ public class PlayerCharacterController : MonoBehaviour
 
                         // play sound jump fmod
                         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_jump", transform.position);
-                      //  audioSource.PlayOneShot(jumpSFX);
 
                         // remember last time we jumped because we need to prevent snapping to ground for a short time
                         m_LastTimeJumped = Time.time;

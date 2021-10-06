@@ -240,7 +240,6 @@ public class WeaponController : MonoBehaviour
         if (show && changeWeaponSFX)
         {
           //wapen wissel oneshot fmod
-          //  m_ShootAudioSource.PlayOneShot(changeWeaponSFX);
           FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_weapon_switch", transform.position);
 
         }

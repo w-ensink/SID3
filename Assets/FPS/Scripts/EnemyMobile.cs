@@ -52,6 +52,7 @@ public class EnemyMobile : MonoBehaviour
         DebugUtility.HandleErrorIfNullGetComponent<AudioSource, EnemyMobile>(m_AudioSource, this, gameObject);
         m_AudioSource.clip = MovementSound;
         m_AudioSource.Play();
+        
     }
 
     void Update()
@@ -79,6 +80,7 @@ public class EnemyMobile : MonoBehaviour
                 {
                     aiState = AIState.Attack;
                     m_EnemyController.SetNavDestination(transform.position);
+                    
                 }
                 break;
             case AIState.Attack:
@@ -86,6 +88,7 @@ public class EnemyMobile : MonoBehaviour
                 if (!m_EnemyController.isTargetInAttackRange)
                 {
                     aiState = AIState.Follow;
+                   
                 }
                 break;
         }
@@ -104,6 +107,7 @@ public class EnemyMobile : MonoBehaviour
                 m_EnemyController.SetNavDestination(m_EnemyController.knownDetectedTarget.transform.position);
                 m_EnemyController.OrientTowards(m_EnemyController.knownDetectedTarget.transform.position);
                 m_EnemyController.OrientWeaponsTowards(m_EnemyController.knownDetectedTarget.transform.position);
+                // Debug.Log("enemy moves (also on spot)");
                 break;
             case AIState.Attack:
                 if (Vector3.Distance(m_EnemyController.knownDetectedTarget.transform.position, m_EnemyController.m_DetectionModule.detectionSourcePoint.position) 
@@ -140,7 +144,7 @@ public class EnemyMobile : MonoBehaviour
 
         if (onDetectSFX)
         {
-            AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_alert", transform.position);
         }
 
         animator.SetBool(k_AnimAlertedParameter, true);
