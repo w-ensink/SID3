@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{51125825-2ec4-41e2-a7b2-b7e70433ed43}">
+		<property name="assetPath">
+			<value>music/drums_fast.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>12.800000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d2a04496-313a-40f0-840d-01da3433b27b}</destination>
+		</relationship>
+	</object>
+</objects>

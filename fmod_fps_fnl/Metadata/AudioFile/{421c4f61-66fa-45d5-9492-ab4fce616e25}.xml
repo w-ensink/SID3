@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{421c4f61-66fa-45d5-9492-ab4fce616e25}">
+		<property name="assetPath">
+			<value>music/bass_drop.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>51.200000000000003</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d2a04496-313a-40f0-840d-01da3433b27b}</destination>
+		</relationship>
+	</object>
+</objects>
