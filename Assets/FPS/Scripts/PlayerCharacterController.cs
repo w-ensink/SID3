@@ -101,7 +101,7 @@ public class PlayerCharacterController : MonoBehaviour
             return 1f;
         }
     }
-    
+
     Health m_Health;
     PlayerInputHandler m_InputHandler;
     CharacterController m_Controller;
@@ -139,8 +139,9 @@ public class PlayerCharacterController : MonoBehaviour
         m_Controller.enableOverlapRecovery = true;
 
         m_Health.onDie += OnDie;
-        
+
         m_Health.onDamaged += TakeHit;
+        m_Health.onHealed += Heal;
 
         //fmod muziek start
 
@@ -196,16 +197,26 @@ public class PlayerCharacterController : MonoBehaviour
         HandleCharacterMovement();
     }
 
-    void TakeHit(float x, GameObject y)
+    void TakeHit(float difference, GameObject y)
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_damage_hitgrunt", transform.position);
+
+        var currentHealth = GetComponent<Health>().currentHealth;
+        GetComponent<StartMusic>().music.setParameterByName("health", (float)(currentHealth) / 100.0f);
+        Debug.Log("Health: " + currentHealth / 100);
+    }
+
+    void Heal(float x)
+    {
+        var currentHealth = GetComponent<Health>().currentHealth;
+        GetComponent<StartMusic>().music.setParameterByName("health", (float)(currentHealth) / 100.0f);
     }
 
     void OnDie()
     {
         isDead = true;
         Debug.Log("player dies");
-        
+
         // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
         m_WeaponsManager.SwitchToWeaponIndex(-1, true);
     }
