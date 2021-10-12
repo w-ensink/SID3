@@ -123,7 +123,6 @@
 	</object>
 	<object class="GroupTrack" id="{122b9ccd-3fc6-4f4f-9eca-4b677b44247d}">
 		<relationship name="modules">
-			<destination>{b1763647-55a0-4579-87a7-5546a5fdc477}</destination>
 			<destination>{abc532c4-e2c8-4ce8-bdda-0306b5025656}</destination>
 			<destination>{cc30bf2d-af02-4888-878d-e83a8c425c31}</destination>
 			<destination>{b0ca4910-c11c-4a00-a823-12d4eb809d15}</destination>
@@ -224,7 +223,6 @@
 			<destination>{f113513e-b07f-4604-8efe-3dd56a4e7755}</destination>
 			<destination>{0ee4eab5-79fb-446b-8a5c-8417e4d21c38}</destination>
 			<destination>{d32f6e19-adc3-4f96-965d-86a50ad8889a}</destination>
-			<destination>{b1763647-55a0-4579-87a7-5546a5fdc477}</destination>
 			<destination>{9e964f52-5e2b-4c31-8ee0-2dd197a5e909}</destination>
 			<destination>{5614c4b6-606c-43f9-8221-cdaef194e4cc}</destination>
 			<destination>{893131b2-5b2b-4787-adb6-c8230a4d3e3d}</destination>
@@ -524,26 +522,6 @@
 			<destination>{432a43ef-d5ff-42e1-aa09-d40be785ed36}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{b1763647-55a0-4579-87a7-5546a5fdc477}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
-		<property name="triggerProbability">
-			<value>60</value>
-		</property>
-		<property name="color">
-			<value>Green</value>
-		</property>
-		<property name="start">
-			<value>38.400000000000006</value>
-		</property>
-		<property name="length">
-			<value>12.800000000000001</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{7203ab09-baf2-4cfb-8444-15b84ee4c795}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{abc532c4-e2c8-4ce8-bdda-0306b5025656}">
 		<property name="color">
 			<value>Green</value>
@@ -577,7 +555,7 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>60</value>
+			<value>74.5</value>
 		</property>
 		<property name="color">
 			<value>Green</value>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{461e5baa-6530-4209-91e2-8a3769dace5b}">
+		<property name="assetPath">
+			<value>hoverbot/turret_fire.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.10904761904761905</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d2a04496-313a-40f0-840d-01da3433b27b}</destination>
+		</relationship>
+	</object>
+</objects>

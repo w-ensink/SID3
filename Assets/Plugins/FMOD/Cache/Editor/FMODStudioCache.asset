@@ -381,6 +381,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7302053361255284974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music/health
+  m_EditorClassIdentifier: 
+  Name: health
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7136485934766100356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -560,8 +582,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -7755554721862235703}
-  - {fileID: 1195575358427780917}
+  - {fileID: -2094911560369470894}
+  - {fileID: 2612034895954916579}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1441,6 +1463,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2094911560369470894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_old/TOTAL_FADE
+  m_EditorClassIdentifier: 
+  Name: TOTAL_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2048749135307598373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,6 +1890,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-464166128508936147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Enemies_hoverbot_move/speed
+  m_EditorClassIdentifier: 
+  Name: speed
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-351575686697684296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1866,8 +1932,8 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -4996117175953751093}
-  - {fileID: 6132781725907025433}
+  - {fileID: -7302053361255284974}
+  - {fileID: 6981005180775201006}
   MinDistance: 0
   MaxDistance: 0
   Length: 141701
@@ -1998,7 +2064,7 @@ MonoBehaviour:
   - {fileID: 3710586531491619092}
   StringsBanks:
   - {fileID: 4982197172559629929}
-  stringsBankWriteTime: 637691342860000000
+  stringsBankWriteTime: 637691940310000000
   cacheVersion: 8
 --- !u!114 &11052340477487702
 MonoBehaviour:
@@ -2038,7 +2104,7 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/AMBIENCE.bank
   Name: AMBIENCE
   StudioPath: bank:/AMBIENCE
-  lastModified: 637691342860000000
+  lastModified: 637691940310000000
   FileSizes:
   - Name: Desktop
     Value: 2212
@@ -2342,6 +2408,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 950
+--- !u!114 &1563069175033789907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AMB_WIND_TECHNOLGIE/fade_AMB
+  m_EditorClassIdentifier: 
+  Name: fade_AMB
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1609015103349179786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2539,7 +2627,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3159921046107736748}
+  - {fileID: 1563069175033789907}
   MinDistance: 0
   MaxDistance: 0
   Length: 31997
@@ -2610,6 +2698,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &2612034895954916579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_old/MUZ_EXPLORE_FADE
+  m_EditorClassIdentifier: 
+  Name: MUZ_EXPLORE_FADE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &2695544347369007167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2874,7 +2984,7 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637691342860000000
+  lastModified: 637691940310000000
   FileSizes:
   - Name: Desktop
     Value: 1012
@@ -3094,7 +3204,7 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637691342860000000
+  lastModified: 637691940310000000
   FileSizes:
   - Name: Desktop
     Value: 2858
@@ -3390,7 +3500,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -5097673905618621658}
+  - {fileID: -464166128508936147}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -3409,10 +3519,32 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637691342870000000
+  lastModified: 637691940310000000
   FileSizes:
   - Name: Desktop
     Value: 262592
+  Exists: 1
+--- !u!114 &6981005180775201006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music/room
+  m_EditorClassIdentifier: 
+  Name: room
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
   Exists: 1
 --- !u!114 &7061993144033967889
 MonoBehaviour:
@@ -3518,10 +3650,10 @@ MonoBehaviour:
   Path: fmod_fps_fnl/Build/Desktop/MUSIC.bank
   Name: MUSIC
   StudioPath: bank:/MUSIC
-  lastModified: 637691342870000000
+  lastModified: 637691940310000000
   FileSizes:
   - Name: Desktop
-    Value: 2346560
+    Value: 2346336
   Exists: 1
 --- !u!114 &7589188328009191543
 MonoBehaviour:
@@ -3626,7 +3758,6 @@ MonoBehaviour:
   Path: 
   guid: f390890fc609634abd1f07149cfa24a1
   Banks:
-  - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}
   - {fileID: 6839737073569449293}
