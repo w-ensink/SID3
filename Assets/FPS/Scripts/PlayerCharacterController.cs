@@ -215,7 +215,7 @@ public class PlayerCharacterController : MonoBehaviour
     void OnDie()
     {
         isDead = true;
-        Debug.Log("player dies");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/Player_death", transform.position);
 
         // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
         m_WeaponsManager.SwitchToWeaponIndex(-1, true);

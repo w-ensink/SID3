@@ -26,7 +26,6 @@ public class Deur_Script : MonoBehaviour
         AutoDeur (true);
         FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
         //combat music parameter switch
-        Debug.Log("cool");
       }
     }
 

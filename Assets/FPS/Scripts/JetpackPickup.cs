@@ -17,8 +17,8 @@ public class JetpackPickup : MonoBehaviour
     {
         var jetpack = byPlayer.GetComponent<Jetpack>();
         
-        Debug.Log("jetpack pickup");
-        
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Pickups/Pickup_jetpack", transform.position);
+
         if (!jetpack)
             return;
 

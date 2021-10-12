@@ -38,6 +38,8 @@ public class WeaponPickup : MonoBehaviour
                 }
 
                 m_Pickup.PlayPickupFeedback();
+                
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Pickups/Pickup_shotgun", transform.position);
 
                 Destroy(gameObject);
             }

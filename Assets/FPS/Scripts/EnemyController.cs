@@ -196,7 +196,7 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         EnsureIsWithinLevelBounds();
-
+        
         m_DetectionModule.HandleTargetDetection(m_Actor, m_SelfColliders);
 
         Color currentColor = onHitBodyGradient.Evaluate((Time.time - m_LastTimeDamaged) / flashOnHitDuration);
@@ -332,8 +332,11 @@ public class EnemyController : MonoBehaviour
     void OnDamaged(float damage, GameObject damageSource)
     {
         // test if the damage source is the player
+
         if (damageSource && damageSource.GetComponent<PlayerCharacterController>())
         {
+            var currentWeapon = damageSource.GetComponent<PlayerWeaponsManager>().GetActiveWeapon().weaponName;
+            
             // pursue the player
             m_DetectionModule.OnDamaged(damageSource);
 
@@ -342,11 +345,16 @@ public class EnemyController : MonoBehaviour
                 onDamaged.Invoke();
             }
             m_LastTimeDamaged = Time.time;
-
+            
             // play the damage tick sound
-            if (damageTick && !m_WasDamagedThisFrame)
+            if (damageTick && !m_WasDamagedThisFrame && currentWeapon == "Blaster")
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Blaster_HIT", transform.position);
             
+            
+            if (damageTick && !m_WasDamagedThisFrame && currentWeapon == "Shotgun")
+                FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Shotgun_HIT", transform.position);
+            
+
             m_WasDamagedThisFrame = true;
             
         }
@@ -360,9 +368,6 @@ public class EnemyController : MonoBehaviour
 
         // tells the game flow manager to handle the enemy destuction
         m_EnemyManager.UnregisterEnemy(this);
-        
-        // FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_death", transform.position);
-        // Debug.Log("enemy dies");
 
         // loot an object
         if (TryDropItem())
@@ -418,7 +423,6 @@ public class EnemyController : MonoBehaviour
         if (didFire && onAttack != null)
         {
             onAttack.Invoke();
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hovertbot_fire", transform.position);
 
             if (swapToNextWeapon && m_Weapons.Length > 1)
             {

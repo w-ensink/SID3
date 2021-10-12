@@ -86,6 +86,7 @@ public class EnemyTurret : MonoBehaviour
                     Vector3 correctedDirectionToTarget = (m_PivotAimingRotation * Quaternion.Inverse(m_RotationWeaponForwardToPivot)) * Vector3.forward;
 
                     m_EnemyController.TryAtack(turretAimPoint.position + correctedDirectionToTarget);
+                    FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_turret_fire", transform.position);
                 }
 
                 break;
@@ -111,8 +112,7 @@ public class EnemyTurret : MonoBehaviour
 
     void onDie()
     {
-        Debug.Log("TURRET DOOD!!!!!!!!!!!!1");
-
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_turret_death", transform.position);
     }
     
     
@@ -142,7 +142,7 @@ public class EnemyTurret : MonoBehaviour
         if (onDetectSFX)
         {
             AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
-            Debug.Log("turret alert");
+            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_turret_alert", transform.position);
         }
 
         animator.SetBool(k_AnimIsActiveParameter, true);

@@ -20,9 +20,7 @@ public class DoorTrigger : MonoBehaviour
     private void Update()
     {
       if (Enemy1 == null && Enemy2 == null && Enemy3 == null && Enemy4 == null && isOpened == false){
-        Debug.Log("GitHubPushPullTest");
         isOpened = true;
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Environment/Environment_deur_open", transform.position);
         //deur oneshot fmod
         //combat music parameter switch naar 0
         animator.SetBool("Open1", true);

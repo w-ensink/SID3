@@ -136,6 +136,7 @@ public class EnemyMobile : MonoBehaviour
     void OnAttack()
     {
         animator.SetTrigger(k_AnimAttackParameter);
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hovertbot_fire", transform.position);
     }
 
     void OnDetectedTarget()
@@ -176,7 +177,7 @@ public class EnemyMobile : MonoBehaviour
 
     void onDie()
     {
-        Debug.Log("hoverbot dies");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_death", transform.position);
     }
     void OnDamaged()
     {
