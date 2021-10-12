@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{4721f484-1d75-4452-9c8a-0289401646bb}">
+	<object class="AudioFile" id="{5654b9d0-e410-4e54-be56-43a8901c8782}">
 		<property name="assetPath">
-			<value>player/jump.wav</value>
+			<value>player/jump_grunts/4.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>2</value>
+			<value>6</value>
 		</property>
 		<property name="length">
-			<value>1.4800907029478458</value>
+			<value>0.20167800453514739</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d2a04496-313a-40f0-840d-01da3433b27b}</destination>
