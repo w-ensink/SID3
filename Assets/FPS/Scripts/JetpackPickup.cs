@@ -16,6 +16,9 @@ public class JetpackPickup : MonoBehaviour
     void OnPicked(PlayerCharacterController byPlayer)
     {
         var jetpack = byPlayer.GetComponent<Jetpack>();
+        
+        Debug.Log("jetpack pickup");
+        
         if (!jetpack)
             return;
 

@@ -40,6 +40,7 @@ public class EnemyTurret : MonoBehaviour
         m_Health = GetComponent<Health>();
         DebugUtility.HandleErrorIfNullGetComponent<Health, EnemyTurret>(m_Health, this, gameObject);
         m_Health.onDamaged += OnDamaged;
+        m_Health.onDie += onDie;
 
         m_EnemyController = GetComponent<EnemyController>();
         DebugUtility.HandleErrorIfNullGetComponent<EnemyController, EnemyTurret>(m_EnemyController, this, gameObject);
@@ -107,6 +108,14 @@ public class EnemyTurret : MonoBehaviour
         m_PreviousPivotAimingRotation = turretPivot.rotation;
     }
 
+
+    void onDie()
+    {
+        Debug.Log("TURRET DOOD!!!!!!!!!!!!1");
+
+    }
+    
+    
     void OnDamaged(float dmg, GameObject source)
     {
         if (randomHitSparks.Length > 0)
@@ -133,6 +142,7 @@ public class EnemyTurret : MonoBehaviour
         if (onDetectSFX)
         {
             AudioUtility.CreateSFX(onDetectSFX, transform.position, AudioUtility.AudioGroups.EnemyDetection, 1f);
+            Debug.Log("turret alert");
         }
 
         animator.SetBool(k_AnimIsActiveParameter, true);

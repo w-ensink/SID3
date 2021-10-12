@@ -57,7 +57,6 @@ public class EnemyController : MonoBehaviour
 
     [Header("Sounds")]
     [Tooltip("Sound played when enemy receives damages")]
-    // [FMODUnity.EventRef]
     public AudioClip damageTick;
 
     [Header("VFX")]
@@ -346,9 +345,10 @@ public class EnemyController : MonoBehaviour
 
             // play the damage tick sound
             if (damageTick && !m_WasDamagedThisFrame)
-
                 FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Weapons/Blaster_HIT", transform.position);
+            
             m_WasDamagedThisFrame = true;
+            
         }
     }
 
@@ -361,7 +361,8 @@ public class EnemyController : MonoBehaviour
         // tells the game flow manager to handle the enemy destuction
         m_EnemyManager.UnregisterEnemy(this);
         
-        FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_death", transform.position);
+        // FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Enemies/Enemies_hoverbot_death", transform.position);
+        // Debug.Log("enemy dies");
 
         // loot an object
         if (TryDropItem())

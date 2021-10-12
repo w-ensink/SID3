@@ -23,10 +23,12 @@ public class EnemyMobile : MonoBehaviour
     [Header("Sound")]
     public AudioClip MovementSound;
     public MinMaxFloat PitchDistortionMovementSpeed;
+    public FMOD.Studio.EventInstance hoverSound;
 
     public AIState aiState { get; private set; }
     EnemyController m_EnemyController;
     AudioSource m_AudioSource;
+    Health m_Health;
 
     const string k_AnimMoveSpeedParameter = "MoveSpeed";
     const string k_AnimAttackParameter = "Attack";
@@ -38,11 +40,14 @@ public class EnemyMobile : MonoBehaviour
         m_EnemyController = GetComponent<EnemyController>();
         DebugUtility.HandleErrorIfNullGetComponent<EnemyController, EnemyMobile>(m_EnemyController, this, gameObject);
 
+        m_Health = GetComponent<Health>();
+
         m_EnemyController.onAttack += OnAttack;
         m_EnemyController.onDetectedTarget += OnDetectedTarget;
         m_EnemyController.onLostTarget += OnLostTarget;
         m_EnemyController.SetPathDestinationToClosestNode();
         m_EnemyController.onDamaged += OnDamaged;
+        m_Health.onDie += onDie;
 
         // Start patrolling
         aiState = AIState.Patrol;
@@ -80,7 +85,8 @@ public class EnemyMobile : MonoBehaviour
                 {
                     aiState = AIState.Attack;
                     m_EnemyController.SetNavDestination(transform.position);
-                    
+
+
                 }
                 break;
             case AIState.Attack:
@@ -88,7 +94,6 @@ public class EnemyMobile : MonoBehaviour
                 if (!m_EnemyController.isTargetInAttackRange)
                 {
                     aiState = AIState.Follow;
-                   
                 }
                 break;
         }
@@ -107,7 +112,10 @@ public class EnemyMobile : MonoBehaviour
                 m_EnemyController.SetNavDestination(m_EnemyController.knownDetectedTarget.transform.position);
                 m_EnemyController.OrientTowards(m_EnemyController.knownDetectedTarget.transform.position);
                 m_EnemyController.OrientWeaponsTowards(m_EnemyController.knownDetectedTarget.transform.position);
-                // Debug.Log("enemy moves (also on spot)");
+                // hoverSound = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/Enemies/Enemies_hoverbot_move");
+                // hoverSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
+                // hoverSound.start();
+                // Debug.Log("hover sound");
                 break;
             case AIState.Attack:
                 if (Vector3.Distance(m_EnemyController.knownDetectedTarget.transform.position, m_EnemyController.m_DetectionModule.detectionSourcePoint.position) 
@@ -165,6 +173,11 @@ public class EnemyMobile : MonoBehaviour
         animator.SetBool(k_AnimAlertedParameter, false);
     }
 
+
+    void onDie()
+    {
+        Debug.Log("hoverbot dies");
+    }
     void OnDamaged()
     {
         if (randomHitSparks.Length > 0)
