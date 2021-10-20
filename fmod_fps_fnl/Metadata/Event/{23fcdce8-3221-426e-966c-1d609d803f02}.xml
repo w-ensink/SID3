@@ -1069,6 +1069,7 @@
 	<object class="MixerBusEffectChain" id="{a0705ff3-9b44-4a91-91e4-dc19a7d7010a}">
 		<relationship name="effects">
 			<destination>{f19d25f3-75d1-450c-b99f-ca9a19555147}</destination>
+			<destination>{ff679338-3b2e-4b14-a110-f2df9c8a0727}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a183fd0-cca1-4586-bb8c-c19fff7613ca}" />
@@ -1206,6 +1207,7 @@
 			<destination>{7f923559-ebdd-4ba5-b4de-e3b0e1ae0e73}</destination>
 			<destination>{c8f71c79-1e22-43a3-9d0d-77c0a8abcb13}</destination>
 			<destination>{0d99e6b1-1a90-4130-bca9-e521362e4de9}</destination>
+			<destination>{4283437b-8163-484a-9a30-6f36e7e19e9e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fec0a6ac-00d0-4219-b6c5-657a3f88868e}" />
@@ -1243,6 +1245,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{f19d25f3-75d1-450c-b99f-ca9a19555147}" />
+	<object class="CompressorEffect" id="{ff679338-3b2e-4b14-a110-f2df9c8a0727}" />
 	<object class="AutomationPoint" id="{749b8eb2-b6d7-44aa-a017-a6d3d8412f75}">
 		<property name="position">
 			<value>0</value>
@@ -1434,6 +1437,7 @@
 			<destination>{e12a0f5a-9bd0-4d6c-bfe0-191f887990de}</destination>
 		</relationship>
 	</object>
+	<object class="CompressorEffect" id="{4283437b-8163-484a-9a30-6f36e7e19e9e}" />
 	<object class="Automator" id="{dd0154ce-9a87-478c-bef0-31e7788d26c5}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>gain</value>
