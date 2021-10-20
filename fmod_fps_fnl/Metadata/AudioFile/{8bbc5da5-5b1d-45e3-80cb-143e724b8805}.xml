@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.01.00">
-	<object class="AudioFile" id="{284efcc4-221a-4c3d-b500-85c5c0b9f65f}">
+	<object class="AudioFile" id="{8bbc5da5-5b1d-45e3-80cb-143e724b8805}">
 		<property name="assetPath">
-			<value>hoverbot/die.wav</value>
+			<value>turret/turret_die.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>6</value>
 		</property>
 		<property name="length">
-			<value>5.9333333333333336</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{d2a04496-313a-40f0-840d-01da3433b27b}</destination>
