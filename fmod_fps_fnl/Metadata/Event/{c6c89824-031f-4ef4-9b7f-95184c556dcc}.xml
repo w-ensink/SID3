@@ -5,7 +5,7 @@
 			<value>Player_death</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{96b424cc-ce2d-40ed-8472-52356af08d1f}</destination>
@@ -53,17 +53,24 @@
 			<destination>{531c6097-e89d-4260-8e51-0bd4a9f0a8ff}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{fd163c1e-3f8f-430f-b6ba-ba7da24d2be3}</destination>
+			<destination>{ed929b24-26dd-42b4-a017-cc6a347b14f5}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cf394095-4764-4cfa-84eb-ab27067ef42f}" />
 	<object class="MarkerTrack" id="{225c6dec-6058-4d93-ab10-18354b16b030}" />
 	<object class="GroupTrack" id="{da7dba78-7454-4fc3-909a-cb0e73888f3c}">
+		<relationship name="modules">
+			<destination>{c1bda6de-afb6-4a56-ae81-88a67716acc3}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{72467b47-d3f4-4895-af75-89c278c7583b}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{d67fb9ae-2fd2-4a5c-ae58-40138c922126}" />
+	<object class="Timeline" id="{d67fb9ae-2fd2-4a5c-ae58-40138c922126}">
+		<relationship name="modules">
+			<destination>{c1bda6de-afb6-4a56-ae81-88a67716acc3}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{af263c00-d70d-43a3-9d5b-f2f45ea5934c}">
 		<relationship name="effectChain">
 			<destination>{a5161a26-a600-4fd0-9b53-005c8109c386}</destination>
@@ -81,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{531c6097-e89d-4260-8e51-0bd4a9f0a8ff}" />
+	<object class="SingleSound" id="{c1bda6de-afb6-4a56-ae81-88a67716acc3}">
+		<property name="length">
+			<value>2.3866213151927438</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{63b769a7-e958-43d5-8e17-ab74925cfdde}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{72467b47-d3f4-4895-af75-89c278c7583b}">
 		<property name="name">
 			<value>Audio 1</value>
